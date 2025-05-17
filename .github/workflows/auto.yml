@@ -33,7 +33,7 @@ jobs:
           yarn workflowDify
           
       - name: Debug Environment
-          run: |
+        run: |
           echo "DIFY_BASE_URL: $DIFY_BASE_URL"
           echo "EMAIL_USER: $EMAIL_USER"
           echo "環境変数の出力テスト完了"
